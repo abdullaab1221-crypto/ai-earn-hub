@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - AI EARN HUB</title>
+  <meta name="description" content="Get in touch with AI Earn Hub. Send us your questions, feedback, or business inquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    @media (max-width: 768px) {
+      .contact-grid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">AI <span>EARN HUB</span></a>
+      <nav>
+        <ul class="nav">
+          <li><a href="../ai-tools/">AI Tools</a></li>
+          <li><a href="../guides/">Guides</a></li>
+          <li><a href="../blog/">Blog</a></li>
+          <li><a href="../about/">About</a></li>
+          <li><a href="../contact/" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="archive-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>Have a question, suggestion, or feedback? We would love to hear from you.</p>
+      </div>
+    </div>
+
+    <div class="article-content">
+      <div class="contact-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
+
+        <div>
+          <h2>Get in Touch</h2>
+          <p>Use the form to send us a message, or reach out through the channels below.</p>
+
+          <div style="margin-top: 24px;">
+            <p><strong>&#128231; Email:</strong> We respond to all messages within 48 hours.</p>
+            <p style="margin-top: 16px;"><strong>&#128221; Feedback:</strong> Suggestions for tools to review, topic ideas, or corrections are always welcome.</p>
+            <p style="margin-top: 16px;"><strong>&#128188; Business:</strong> For partnership or advertising inquiries, please include "Business" in your subject line.</p>
+          </div>
+
+          <p style="margin-top: 24px; padding: 16px; background: rgba(99,102,241,0.05); border-left: 3px solid var(--primary); border-radius: 0 var(--radius) var(--radius) 0; font-size: 0.9rem;">We do not provide personal tech support for third-party AI tools. For tool-specific issues, please contact the tool's official support team.</p>
+        </div>
+
+        <div>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required style="width: 100%; padding: 12px 16px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--bg-card); color: var(--text); font-size: 0.9rem; font-family: inherit; outline: none;">
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="tool-suggestion">Tool Suggestion</option>
+                <option value="report-issue">Report Issue</option>
+                <option value="business">Business Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+          <p style="margin-top: 16px; font-size: 0.8rem; color: var(--text-dim); text-align: center;">Note: This is a static site. The contact form needs a backend service (like Formspree or Netlify Forms) to process submissions. Currently, form submissions are not functional.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="newsletter">
+          <h2>Stay Updated</h2>
+          <p>Get the latest AI tool reviews, guides, and earning tips delivered to your inbox.</p>
+          <form class="newsletter-form" action="#" method="post">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta">
+          <h2>Ready to Start Exploring AI Tools?</h2>
+          <div class="cta-btns">
+            <a href="../ai-tools/" class="btn btn-primary">Browse AI Tools</a>
+            <a href="../guides/" class="btn btn-outline">Read Our Guides</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">AI <span>EARN HUB</span></a>
+          <p>Your trusted resource for AI tool reviews, guides, and realistic earning strategies.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="../ai-tools/">AI Tools</a></li>
+            <li><a href="../guides/">Guides</a></li>
+            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../about/">About</a></li>
+            <li><a href="../contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="../privacy-policy/">Privacy Policy</a></li>
+            <li><a href="../terms-of-service/">Terms of Service</a></li>
+            <li><a href="../affiliate-disclosure/">Affiliate Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AI EARN HUB. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      document.querySelector('.nav').classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>

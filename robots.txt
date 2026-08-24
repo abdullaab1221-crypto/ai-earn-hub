@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aaaa1bbbb.wuaze.com/sitemap.xml
