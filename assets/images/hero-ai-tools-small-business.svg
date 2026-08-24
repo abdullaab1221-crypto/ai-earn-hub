@@ -1,0 +1,78 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Decorative grid -->
+  <g opacity="0.05" stroke="#3b82f6" stroke-width="0.5">
+    <line x1="0" y1="0" x2="1200" y2="630"/>
+    <line x1="200" y1="0" x2="1200" y2="525"/>
+    <line x1="400" y1="0" x2="1200" y2="420"/>
+    <line x1="600" y1="0" x2="1200" y2="315"/>
+    <line x1="800" y1="0" x2="1200" y2="210"/>
+    <line x1="1000" y1="0" x2="1200" y2="105"/>
+    <line x1="0" y1="630" x2="1200" y2="0"/>
+    <line x1="200" y1="630" x2="1200" y2="105"/>
+    <line x1="400" y1="630" x2="1200" y2="210"/>
+    <line x1="600" y1="630" x2="1200" y2="315"/>
+    <line x1="800" y1="630" x2="1200" y2="420"/>
+    <line x1="1000" y1="630" x2="1200" y2="525"/>
+  </g>
+  
+  <!-- Glow orbs -->
+  <circle cx="200" cy="150" r="120" fill="url(#glow)" opacity="0.4"/>
+  <circle cx="1000" cy="480" r="150" fill="url(#glow)" opacity="0.3"/>
+  <circle cx="600" cy="315" r="200" fill="url(#glow)" opacity="0.15"/>
+  
+  <!-- Floating AI icons -->
+  <g opacity="0.15" fill="#3b82f6">
+    <rect x="100" y="80" width="40" height="40" rx="8"/>
+    <rect x="160" y="120" width="30" height="30" rx="6"/>
+    <circle cx="900" cy="100" r="20"/>
+    <rect x="950" y="80" width="35" height="35" rx="7"/>
+    <circle cx="150" cy="500" r="15"/>
+    <rect x="1050" cy="450" width="25" height="25" rx="5"/>
+  </g>
+  
+  <!-- Main content area -->
+  <rect x="60" y="180" width="1080" height="270" rx="16" fill="#1e293b" opacity="0.6" stroke="url(#accent)" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="600" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">15 Best AI Tools for</text>
+  <text x="600" y="315" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">Small Businesses in 2026</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#94a3b8" text-anchor="middle">Marketing, Sales &amp; Automation</text>
+  
+  <!-- Accent line -->
+  <rect x="450" y="390" width="300" height="3" rx="1.5" fill="url(#accent)"/>
+  
+  <!-- Bottom tags -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748b">
+    <text x="200" y="520" text-anchor="middle">ChatGPT</text>
+    <text x="320" y="520" text-anchor="middle">Canva AI</text>
+    <text x="440" y="520" text-anchor="middle">Zapier</text>
+    <text x="560" y="520" text-anchor="middle">HubSpot</text>
+    <text x="680" y="520" text-anchor="middle">Notion AI</text>
+    <text x="800" y="520" text-anchor="middle">Claude</text>
+    <text x="920" y="520" text-anchor="middle">+ 9 More</text>
+  </g>
+  
+  <!-- Brand -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#3b82f6" text-anchor="middle" letter-spacing="2">AI EARN HUB</text>
+</svg>

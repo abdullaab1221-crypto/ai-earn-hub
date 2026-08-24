@@ -1,0 +1,39 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" fill="none">
+  <defs>
+    <linearGradient id="logoGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="logoGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <!-- AI Icon: Neural network node -->
+  <g transform="translate(4, 4)">
+    <!-- Outer hexagon -->
+    <polygon points="20,0 38,10 38,30 20,40 2,30 2,10" stroke="url(#logoGrad1)" stroke-width="2" fill="none" opacity="0.9"/>
+    <!-- Inner connections -->
+    <circle cx="20" cy="12" r="3.5" fill="url(#logoGrad1)"/>
+    <circle cx="10" cy="24" r="3.5" fill="#6366F1"/>
+    <circle cx="30" cy="24" r="3.5" fill="#06B6D4"/>
+    <circle cx="20" cy="34" r="2.5" fill="url(#logoGrad2)" opacity="0.7"/>
+    <!-- Neural connections -->
+    <line x1="20" y1="12" x2="10" y2="24" stroke="#818CF8" stroke-width="1.2" opacity="0.5"/>
+    <line x1="20" y1="12" x2="30" y2="24" stroke="#06B6D4" stroke-width="1.2" opacity="0.5"/>
+    <line x1="10" y1="24" x2="20" y2="34" stroke="#6366F1" stroke-width="1" opacity="0.4"/>
+    <line x1="30" y1="24" x2="20" y2="34" stroke="#06B6D4" stroke-width="1" opacity="0.4"/>
+    <line x1="10" y1="24" x2="30" y2="24" stroke="#818CF8" stroke-width="0.8" opacity="0.3"/>
+    <!-- Glow dots -->
+    <circle cx="20" cy="12" r="1.5" fill="#fff" opacity="0.6"/>
+    <circle cx="10" cy="24" r="1.5" fill="#fff" opacity="0.5"/>
+    <circle cx="30" cy="24" r="1.5" fill="#fff" opacity="0.5"/>
+  </g>
+  <!-- Text: AI -->
+  <text x="54" y="33" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" fill="url(#logoGrad1)" letter-spacing="-0.5">AI</text>
+  <!-- Text: EARN HUB -->
+  <text x="96" y="33" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="700" fill="#1E293B" letter-spacing="-0.5">EARN</text>
+  <text x="174" y="33" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="700" fill="#64748B" letter-spacing="-0.5">HUB</text>
+</svg>
+

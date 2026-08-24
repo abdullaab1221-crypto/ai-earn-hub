@@ -1,46 +1,14 @@
+# Recovery and build artifacts
+recovery/
+static/
+convert-to-static.ps1
+
 # OS files
-.DS_Store
 Thumbs.db
-desktop.ini
+Desktop.ini
+.DS_Store
 
 # Editor files
-.vscode/
-.idea/
 *.swp
 *.swo
 *~
-
-# Dependencies
-node_modules/
-package-lock.json
-
-# Build artifacts
-dist/
-build/
-.cache/
-
-# Secrets and credentials - NEVER commit these
-wp-config.php
-.htpasswd
-*.env
-.env
-.env.local
-.env.production
-credentials.*
-secrets.*
-*.key
-*.pem
-
-# WordPress files (should not be in static site)
-wp-admin/
-wp-includes/
-wp-content/plugins/
-wp-content/themes/ai-earn-hub-theme/
-
-# Logs
-*.log
-
-# Backup files
-*.backup
-*.bak
-webnest-backup/

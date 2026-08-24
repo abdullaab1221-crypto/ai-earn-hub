@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /assets/
 
-Sitemap: https://aaaa1bbbb.wuaze.com/sitemap.xml
+Sitemap: https://abdullaab1221-crypto.github.io/ai-earn-hub/sitemap.xml

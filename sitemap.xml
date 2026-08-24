@@ -1,147 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aaaa1bbbb.wuaze.com/</loc>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aaaa1bbbb.wuaze.com/about/</loc>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/about/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aaaa1bbbb.wuaze.com/contact/</loc>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/contact/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aaaa1bbbb.wuaze.com/privacy-policy/</loc>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-tools/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-tools/chatgpt/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-tools/jasper/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-tools/midjourney/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-tools/copy-ai/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-tools/murf/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-tools/copilot/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/guides/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/guides/chatgpt-beginners-guide/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/guides/ai-content-creation/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/guides/ai-tools-small-business/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/tutorials/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/blog/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/ai-freelancing-2026-skills-beginners/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/how-to-use-ai-to-make-money-online/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/best-ai-tools-for-small-businesses-2026/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/best-free-ai-tools-for-freelancers-2026/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/best-free-ai-tools-for-students/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/privacy-policy/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-tools/</loc>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/terms-of-service/</loc>
     <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-tools/chatgpt/</loc>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/affiliate-disclosure/</loc>
     <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-tools/jasper/</loc>
+    <loc>https://abdullaab1221-crypto.github.io/ai-earn-hub/cookie-policy/</loc>
     <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-tools/midjourney/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-tools/copy-ai/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-tools/murf/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-tools/copilot/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/guides/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/guides/chatgpt-beginners-guide/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/guides/ai-content-creation/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/guides/ai-tools-small-business/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/blog/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/ai-freelancing-2026-skills-beginners/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/how-to-use-ai-to-make-money-online/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/best-ai-tools-for-small-businesses-2026/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/best-free-ai-tools-for-freelancers-2026/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/best-free-ai-tools-for-students/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/category/getting-started/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/category/ai-tools/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aaaa1bbbb.wuaze.com/category/guides/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

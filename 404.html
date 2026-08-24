@@ -1,64 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Not Found - AI EARN HUB</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <title>Page Not Found - AI EARN HUB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/premium-polish.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
+<body class="error404">
 
-<header>
-  <div class="header-inner">
-    <a href="index.html" class="logo">AI <span>EARN HUB</span></a>
-    <button class="mobile-toggle" onclick="document.querySelector('nav').classList.toggle('open')">&#9776;</button>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="category/getting-started/">Getting Started</a>
-      <a href="category/ai-tools/">AI Tools</a>
-      <a href="category/guides/">Guides</a>
-    </nav>
-  </div>
+<header id="masthead" class="site-header sticky-header" role="banner">
+    <div class="header-inner container">
+        <div class="site-branding">
+            <a href="./" rel="home" class="site-logo-link" aria-label="AI EARN HUB">
+                <img src="assets/images/logo.svg" alt="AI EARN HUB" class="site-logo" width="200" height="40">
+            </a>
+        </div>
+        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
+            </button>
+            <ul id="primary-menu" class="menu">
+                <li class="menu-item current_page_item menu-item-home"><a href="./" aria-current="page">Home</a></li>
+                <li class="menu-item"><a href="./ai-tools/">AI Tools</a></li>
+                <li class="menu-item"><a href="./guides/">Guides</a></li>
+                <li class="menu-item"><a href="./tutorials/">Tutorials</a></li>
+                <li class="menu-item"><a href="./blog/">Blog</a></li>
+                <li class="menu-item"><a href="./about/">About</a></li>
+                <li class="menu-item"><a href="./contact/">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-cta">
+            <a href="./ai-tools/" class="btn btn-primary btn-sm">Get Started</a>
+        </div>
+    </div>
 </header>
 
-<main>
-  <div class="page-404">
-    <h1>404</h1>
-    <p>Oops! The page you're looking for doesn't exist.</p>
-    <a href="../" class="btn btn-primary">Go Home</a>
-  </div>
+<div id="primary" class="site-content">
+<main id="main" class="site-main" role="main">
+    <section class="page-hero">
+        <div class="hero-bg-image" style="background-image: url('assets/images/hero-bg.webp');" aria-hidden="true"></div>
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="section-tag">Error 404</span>
+                <h1 class="page-hero-title">Page Not Found</h1>
+                <p class="page-hero-description">
+                    The page you're looking for doesn't exist or has been moved.
+                </p>
+                <div class="hero-buttons" style="margin-top: 24px;">
+                    <a href="./" class="btn btn-primary btn-lg">Go Home</a>
+                    <a href="./ai-tools/" class="btn btn-outline btn-lg">Explore AI Tools</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+</div>
 
-<footer>
-  <div class="footer-grid">
-    <div class="footer-brand">
-      <span class="logo">AI <span>EARN HUB</span></span>
-      <p>Your trusted resource for discovering how artificial intelligence can help you earn money online. Practical guides, tool reviews, and actionable strategies.</p>
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="footer-gradient-border" aria-hidden="true"></div>
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <a href="./" aria-label="AI EARN HUB">
+                            <img src="assets/images/logo.svg" alt="AI EARN HUB" class="footer-site-logo" width="180" height="36" style="filter: brightness(0) invert(1); opacity: 0.9;">
+                        </a>
+                    </div>
+                    <p class="footer-description">AI Tools, Earning &amp; Digital Solutions</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="./ai-tools/">AI Tools</a></li>
+                        <li><a href="./guides/">Guides</a></li>
+                        <li><a href="./blog/">Blog</a></li>
+                        <li><a href="./about/">About</a></li>
+                        <li><a href="./contact/">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="./privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="./terms-of-service/">Terms of Service</a></li>
+                        <li><a href="./affiliate-disclosure/">Affiliate Disclosure</a></li>
+                        <li><a href="./cookie-policy/">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="category/getting-started/">Getting Started</a></li>
-        <li><a href="category/ai-tools/">AI Tools</a></li>
-        <li><a href="category/guides/">Guides</a></li>
-      </ul>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-inner">
+                <p class="copyright">&copy; 2026 <a href="./">AI EARN HUB</a>. All rights reserved.</p>
+            </div>
+        </div>
     </div>
-    <div class="footer-resources">
-      <h4>Resources</h4>
-      <ul>
-        <li><a href="privacy-policy/">Privacy Policy</a></li>
-        <li><a href="contact/">Contact</a></li>
-        <li><a href="about/">About</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 AI Earn Hub. All rights reserved.</p>
-  </div>
 </footer>
 
+<script src="assets/js/navigation.js"></script>
 </body>
 </html>

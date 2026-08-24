@@ -1,0 +1,73 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+  
+  <!-- Title -->
+  <text x="600" y="50" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="white" text-anchor="middle">15 AI Tools Comparison</text>
+  <rect x="400" y="60" width="400" height="2" fill="#3b82f6"/>
+  
+  <!-- Category columns -->
+  <!-- Productivity -->
+  <rect x="30" y="90" width="220" height="520" rx="12" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="30" y="90" width="220" height="40" rx="12" fill="#3b82f6"/>
+  <text x="140" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">PRODUCTIVITY</text>
+  <text x="140" y="160" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">ChatGPT</text>
+  <text x="140" y="190" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">General AI Assistant</text>
+  <text x="140" y="230" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Notion AI</text>
+  <text x="140" y="260" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Workspace &amp; Notes</text>
+  <text x="140" y="300" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Grammarly</text>
+  <text x="140" y="330" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Writing &amp; Editing</text>
+  <text x="140" y="370" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Microsoft Copilot</text>
+  <text x="140" y="400" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Office Integration</text>
+  <text x="140" y="440" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Google Gemini</text>
+  <text x="140" y="470" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Google Ecosystem</text>
+  <text x="140" y="510" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Otter.ai</text>
+  <text x="140" y="540" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Meeting Transcription</text>
+  
+  <!-- Marketing -->
+  <rect x="270" y="90" width="220" height="520" rx="12" fill="#1e293b" stroke="#8b5cf6" stroke-width="1"/>
+  <rect x="270" y="90" width="220" height="40" rx="12" fill="#8b5cf6"/>
+  <text x="380" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">MARKETING</text>
+  <text x="380" y="160" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Canva AI</text>
+  <text x="380" y="190" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Design &amp; Visuals</text>
+  <text x="380" y="230" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Jasper</text>
+  <text x="380" y="260" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Marketing Content</text>
+  <text x="380" y="300" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Adobe Express AI</text>
+  <text x="380" y="330" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Quick Design</text>
+  
+  <!-- Sales & CRM -->
+  <rect x="510" y="90" width="220" height="520" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1"/>
+  <rect x="510" y="90" width="220" height="40" rx="12" fill="#10b981"/>
+  <text x="620" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">SALES &amp; CRM</text>
+  <text x="620" y="160" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">HubSpot Breeze</text>
+  <text x="620" y="190" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">CRM &amp; Marketing</text>
+  <text x="620" y="230" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Shopify Sidekick</text>
+  <text x="620" y="260" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">E-commerce</text>
+  
+  <!-- Research -->
+  <rect x="750" y="90" width="220" height="520" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="1"/>
+  <rect x="750" y="90" width="220" height="40" rx="12" fill="#f59e0b"/>
+  <text x="860" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">RESEARCH</text>
+  <text x="860" y="160" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Perplexity</text>
+  <text x="860" y="190" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">AI Search</text>
+  <text x="860" y="230" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Claude</text>
+  <text x="860" y="260" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Analysis &amp; Writing</text>
+  
+  <!-- Automation -->
+  <rect x="990" y="90" width="180" height="520" rx="12" fill="#1e293b" stroke="#ef4444" stroke-width="1"/>
+  <rect x="990" y="90" width="180" height="40" rx="12" fill="#ef4444"/>
+  <text x="1080" y="116" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">AUTOMATION</text>
+  <text x="1080" y="160" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Zapier</text>
+  <text x="1080" y="190" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">App Connections</text>
+  <text x="1080" y="230" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#e2e8f0" text-anchor="middle">Make</text>
+  <text x="1080" y="260" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Visual Automation</text>
+  
+  <!-- Brand -->
+  <text x="600" y="615" font-family="system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">AI EARN HUB â ai-earn-hub.com</text>
+</svg>
