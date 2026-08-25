@@ -952,3 +952,35 @@ html, body {
     }
 }
 
+/* --------------------------------------------------------------------------
+   Tutorial Course Sidebar - Mobile
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 1024px) {
+    .site-main.single-post.has-sidebar .content-area {
+        flex-direction: column;
+    }
+
+    .tut-sidebar {
+        width: 100%;
+        order: -1;
+    }
+
+    .tut-sidebar-inner {
+        position: static;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .tut-sidebar-toggle {
+        display: flex;
+    }
+
+    .tut-sidebar-collapse {
+        display: none;
+    }
+
+    .tut-sidebar-collapse.is-open {
+        display: block;
+    }
+}
+
