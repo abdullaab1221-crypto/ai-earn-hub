@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon.png">
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "10 Prompt Engineering Techniques Every Beginner Should Know",
+        "datePublished": "2026-08-20T10:00:00+05:00",
+        "dateModified": "2026-08-20T10:00:00+05:00",
+        "author": {
+            "@type": "Person",
+            "name": ""
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI EARN HUB",
+            "url": "/"
+        },
+        "description": "Master 10 essential prompt engineering techniques that will transform how you use AI tools. Includes zero-shot, few-shot, chain-of-thought, and other proven methods with practical examples.",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "/tutorials/lesson-4-prompt-engineering-techniques/"
+        }
+    }
+    </script>
+    
+
+<title>10 Prompt Engineering Techniques Every Beginner Should Know - AI Tutorial | AI Earn Hub</title>
+<meta name="description" content="Master 10 essential prompt engineering techniques that will transform how you use AI tools. Includes zero-shot, few-shot, chain-of-thought, and other proven methods with practical examples."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="../../tutorials/lesson-4-prompt-engineering-techniques/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="10 Prompt Engineering Techniques Every Beginner Should Know - AI Tutorial | AI Earn Hub" />
+<meta property="og:description" content="Master 10 essential prompt engineering techniques that will transform how you use AI tools. Includes zero-shot, few-shot, chain-of-thought, and other proven methods with practical examples." />
+<meta property="og:url" content="../../tutorials/lesson-4-prompt-engineering-techniques/" />
+<meta property="og:site_name" content="AI EARN HUB" />
+<meta property="article:section" content="Tutorials" />
+<meta property="article:published_time" content="2026-08-20T10:00:00+05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="10 Prompt Engineering Techniques Every Beginner Should Know - AI Tutorial | AI Earn Hub" />
+<meta name="twitter:description" content="Master 10 essential prompt engineering techniques that will transform how you use AI tools. Includes zero-shot, few-shot, chain-of-thought, and other proven methods with practical examples." />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="12 minutes" />
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+
+
+
+<link rel='stylesheet' id='aeh-google-fonts-css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&#038;display=swap' media='all' />
+<link rel='stylesheet' id='aeh-main-css' href="../../assets/css/main.css" media='all' />
+<link rel='stylesheet' id='aeh-premium-css' href="../../assets/css/premium-polish.css" media='all' />
+<link rel='stylesheet' id='aeh-responsive-css' href="../../assets/css/responsive.css" media='all' />
+
+
+<link rel='shortlink' href='/?p=104' />
+    
+    </head>
+<body class="wp-singular page-template-default single single-post wp-theme-ai-earn-hub-theme">
+
+<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+<header id="masthead" class="site-header sticky-header" role="banner">
+    <div class="header-inner container">
+        <div class="site-branding">
+            <a href="../../" rel="home" class="site-logo-link" aria-label="AI EARN HUB">
+                <img src="../../assets/images/logo.svg" alt="AI EARN HUB" class="site-logo" width="200" height="40">
+            </a>
+        </div>
+
+        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
+            </button>
+            <ul id="primary-menu" class="menu"><li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21"><a href="../../">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="../../ai-tools/">AI Tools</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="../../guides/">Guides</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-75"><a href="../../tutorials/" aria-current="page">Tutorials</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="../../blog/">Blog</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="../../about/">About</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="../../contact/">Contact</a></li>
+</ul>        </nav>
+
+        <div class="header-cta">
+            <a href="../../ai-tools/" class="btn btn-primary btn-sm">
+                Get Started            </a>
+        </div>
+    </div>
+</header>
+
+<div id="primary" class="site-content">
+
+<main id="main" class="site-main single-post" role="main">
+    <div class="container">
+        <div class="content-area">
+            <article class="single-article">
+                <header class="entry-header single-header">
+                    <div class="article-meta">
+                        <span class="cat-links"><a href="../../tutorials/">Tutorial</a></span>
+                        <span class="meta-separator">&middot;</span>
+                        <span class="reading-time">12 min read</span>
+                    </div>
+                    <h1 class="entry-title">10 Prompt Engineering Techniques Every Beginner Should Know</h1>
+                </header>
+                <div class="entry-content">
+                    <p>Knowing what to ask an AI is only half the battle. The real skill is knowing <strong>how</strong> to ask. The way you structure a prompt directly affects the quality, accuracy, and usefulness of the response you get back.</p>
+                    <p>In <a href="../lesson-3-anatomy-of-a-powerful-prompt/">Lesson 3</a>, we covered the anatomy of a powerful prompt. Now it is time to learn the specific techniques that make those prompts work. These ten prompt engineering techniques are the tools you will reach for again and again when working with ChatGPT, Claude, Gemini, and other AI tools.</p>
+                    <p>You do not need to memorize all ten at once. Start with the first three, practice them, and gradually add more to your toolkit as you gain confidence.</p>
+
+                    <h2>Technique 1: Zero-Shot Prompting</h2>
+                    <p><strong>What it is:</strong> You ask the AI to do something without providing any examples or background context. You simply state the task directly and trust that the AI already has enough knowledge to handle it.</p>
+                    <p><strong>When to use it:</strong> Use zero-shot prompting for straightforward tasks where the AI likely already understands what you need. Summarizing text, answering factual questions, translating between languages, or generating basic content are all good candidates.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>Summarize the following article in 3 bullet points:
+
+Artificial intelligence is transforming industries across the globe. From healthcare to finance, organizations are finding new ways to leverage machine learning algorithms to improve efficiency and reduce costs. The global AI market is projected to reach $1.8 trillion by 2030, driven by advances in natural language processing, computer vision, and predictive analytics. However, experts warn that rapid adoption without proper governance could lead to job displacement and ethical concerns.</code></pre>
+                    <p><strong>Why it works:</strong> The AI understands the concept of summarizing, bullet points, and article content. No examples are needed because the task is clear and well-defined.</p>
+                    <p><strong>Limitation:</strong> Zero-shot prompting can fall short when the task is complex, the output needs a specific format, or you need the AI to match a particular style. In those cases, move to few-shot or constraint-based prompting.</p>
+
+                    <h2>Technique 2: Few-Shot Prompting</h2>
+                    <p><strong>What it is:</strong> You give the AI one or more examples of the input-output pattern you want it to follow. Instead of explaining the task in detail, you show the AI what good output looks like.</p>
+                    <p><strong>When to use it:</strong> Few-shot prompting works best when you need a specific format, tone, or style that would be hard to describe in words. It is also useful when the task is unusual or the AI might not guess what you want without guidance.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>Convert the following product descriptions into short social media captions.
+
+Product: Wireless Bluetooth Earbuds
+Caption: Cut the cord, keep the bass. Our new Bluetooth earbuds deliver 24-hour battery life and crystal-clear sound. Shop now.
+
+Product: Organic Green Tea
+Caption: Fuel your morning the natural way. Our organic green tea is sourced from high-altitude farms and packed with antioxidants. Try it today.
+
+Product: Ergonomic Office Chair
+Caption: Your back will thank you. Our ergonomic chair supports 8+ hours of comfortable sitting. Upgrade your workspace now.</code></pre>
+                    <p><strong>Why it works:</strong> By seeing two examples, the AI picks up on the pattern: short sentences, conversational tone, a benefit, and a call to action. It replicates that pattern for the third product without you needing to explain the rules.</p>
+                    <p><strong>Tip:</strong> Two to three examples are usually enough. Adding more examples takes up space in your prompt but does not always improve results.</p>
+
+                    <h2>Technique 3: Chain-of-Thought Prompting</h2>
+                    <p><strong>What it is:</strong> You ask the AI to break a problem down into steps and show its reasoning before giving a final answer. Instead of jumping to the conclusion, the AI walks through the logic.</p>
+                    <p><strong>When to use it:</strong> Use chain-of-thought prompting for math problems, logical reasoning, complex decision-making, multi-step tasks, or any situation where you want to see how the AI arrived at its answer.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>A small coffee shop sells 120 cups of coffee per day at $4.50 each. Their monthly expenses are $8,000 (rent: $3,000, supplies: $2,500, staff: $2,000, utilities: $500). They want to know if they should add pastries to the menu. Pastries would cost $0.80 to make and sell for $2.50 each. They estimate they could sell 40 pastries per day.
+
+Think through this step by step before recommending whether adding pastries is a good financial decision.</code></pre>
+                    <p><strong>Why it works:</strong> Without chain-of-thought, the AI might give a vague answer like "yes, pastries could help." With it, the AI calculates daily coffee revenue, monthly expenses, pastry revenue potential, additional costs, and net profit impact. You get a real, numbers-backed answer.</p>
+                    <blockquote>
+                        <p><strong>Pro tip:</strong> You can simply add "Let's think step by step" or "Show your reasoning" to any prompt to activate chain-of-thought behavior. The phrase "Let's think step by step" has been shown to improve reasoning accuracy across many AI models.</p>
+                    </blockquote>
+
+                    <h2>Technique 4: Role-Based Prompting</h2>
+                    <p><strong>What it is:</strong> You tell the AI to act as a specific person, expert, or character. This changes the tone, depth, and perspective of the response to match that role.</p>
+                    <p><strong>When to use it:</strong> Role-based prompting is useful when you need a specific expertise level, a particular communication style, or a perspective that matches a real-world role. It works well for advice, analysis, teaching, and creative tasks.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>You are a senior tax accountant with 20 years of experience. A client who runs a small freelance design business is asking whether they should form an LLC or stay as a sole proprietor for tax purposes in the United States.
+
+Explain the key differences in plain language. Include the tax implications, liability protection, and administrative costs. Give a clear recommendation based on a freelancer earning $75,000 per year.</code></pre>
+                    <p><strong>Why it works:</strong> When you assign a role, the AI adjusts its vocabulary, depth, and focus to match that expert perspective. A "senior tax accountant" will give different advice than a generic AI response about business structures.</p>
+                    <p><strong>Tip:</strong> Be specific about the role. "You are a financial advisor" is less effective than "You are a certified financial planner who specializes in helping freelancers with tax planning." The more specific the role, the more targeted the output.</p>
+
+                    <h2>Technique 5: Constraint-Based Prompting</h2>
+                    <p><strong>What it is:</strong> You set explicit rules, limits, or requirements that the AI must follow. These constraints shape the output to match your exact needs.</p>
+                    <p><strong>When to use it:</strong> Use constraint-based prompting when you need the output to fit specific parameters such as word count, tone, audience, structure, or content requirements. It is especially useful for professional or business content where precision matters.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>Write a product description for a noise-canceling headphone.
+
+Constraints:
+- Maximum 100 words
+- Professional but friendly tone
+- Must mention: battery life, comfort, and noise cancellation
+- Target audience: remote workers
+- Do NOT use phrases like "game-changer" or "revolutionary"
+- End with a one-sentence call to action</code></pre>
+                    <p><strong>Why it works:</strong> Without constraints, the AI might write a 300-word description using buzzwords. With constraints, every sentence is guided by your requirements. The output is tighter, more focused, and more usable.</p>
+                    <p><strong>Common constraints to use:</strong></p>
+                    <ul>
+                        <li>Word or character limits</li>
+                        <li>Required or forbidden words</li>
+                        <li>Specific audience or reading level</li>
+                        <li>Required sections or topics</li>
+                        <li>Tone guidelines (formal, casual, persuasive)</li>
+                        <li>Output format requirements</li>
+                    </ul>
+
+                    <h2>Technique 6: Output Format Specification</h2>
+                    <p><strong>What it is:</strong> You tell the AI exactly how you want the response structured. Instead of letting the AI decide the format, you define it.</p>
+                    <p><strong>When to use it:</strong> Use output format specification when you need the AI to produce content that will be used directly in another tool, document, or system. It is essential for structured data, lists, tables, code, and any content that follows a template.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>Create a one-week social media content calendar for a coffee shop.
+
+Output format:
+Week of [DATE]
+Day | Platform | Post Type | Caption | Hashtags
+Monday | Instagram | Photo | [caption] | [#hashtag1, #hashtag2]
+Tuesday | Facebook | Text | [caption] | [#hashtag1, #hashtag2]
+...
+Continue for all 7 days. Use a table format. Include one Instagram post and one Facebook post per day.</code></pre>
+                    <p><strong>Why it works:</strong> When you specify the format, the AI fills in the content while maintaining your structure. This saves significant time because you do not need to reformat the output after receiving it.</p>
+                    <p><strong>Useful format options:</strong></p>
+                    <ul>
+                        <li>Tables with specific columns</li>
+                        <li>Numbered or bulleted lists</li>
+                        <li>JSON, YAML, or other data formats</li>
+                        <li>Markdown with specific headings</li>
+                        <li>CSV format for spreadsheet import</li>
+                        <li>Code blocks with specific syntax highlighting</li>
+                    </ul>
+
+                    <h2>Technique 7: Iterative Refinement</h2>
+                    <p><strong>What it is:</strong> You start with a broad prompt, evaluate the output, and then refine the prompt or ask follow-up questions to improve the result. Instead of trying to get everything perfect in one prompt, you build toward the ideal output through a conversation.</p>
+                    <p><strong>When to use it:</strong> Use iterative refinement when the task is complex, when you are not sure exactly what you want until you see something, or when the first draft is a starting point rather than a final product.</p>
+                    <p><strong>Example conversation:</strong></p>
+                    <pre><code>Prompt 1: Write a blog post about email marketing for small businesses.
+
+Review output → Good structure but too generic.
+
+Prompt 2: Make the tone more conversational. Add specific examples of email subject lines. Remove any sentences that start with "In today's digital world."
+
+Review output → Better tone, but too long.
+
+Prompt 3: Cut this down to 800 words. Keep the subject line examples. Add a section about common mistakes beginners make with email marketing.
+
+Review output → Final version is ready.</code></pre>
+                    <p><strong>Why it works:</strong> Iterative refinement mirrors how real work happens. First drafts are rarely perfect. By evaluating and adjusting, you get closer to what you actually need without overloading a single prompt with every requirement.</p>
+                    <blockquote>
+                        <p><strong>Pro tip:</strong> When refining, be specific about what to change. "Make it better" is vague. "Reduce the intro to 2 sentences, add a specific example of an A/B test result, and change the tone to sound like a helpful colleague" gives the AI clear direction.</p>
+                    </blockquote>
+
+                    <h2>Technique 8: Prompt Chaining</h2>
+                    <p><strong>What it is:</strong> You break a complex task into smaller, sequential prompts where the output of one prompt becomes the input for the next. Each prompt handles one part of the larger task.</p>
+                    <p><strong>When to use it:</strong> Use prompt chaining when a single prompt would be too long, too complex, or would lose quality because it tries to do too many things at once. It works well for research projects, content creation workflows, and multi-step analysis.</p>
+                    <p><strong>Example chain:</strong></p>
+                    <pre><code>Step 1: "List 10 trending topics in the fitness industry for 2026."
+
+Step 2: "Take the top 3 topics from this list: [paste output]. For each topic, identify the main audience, their pain points, and what kind of content would address those pain points."
+
+Step 3: "For the topic '[chosen topic]' from the analysis above, create a detailed blog post outline with 5 sections, each with 2-3 subpoints."
+
+Step 4: "Write the introduction and first section of this blog post: [paste outline]. Use a conversational tone. Target 300 words for this section."</code></pre>
+                    <p><strong>Why it works:</strong> Each step is focused and manageable. The AI performs better when given one clear task at a time. Chaining also lets you review and adjust between steps, ensuring the final output is on track.</p>
+                    <p><strong>When chaining is better than one big prompt:</strong></p>
+                    <ul>
+                        <li>The task has more than 3 distinct parts</li>
+                        <li>You need to make decisions between steps</li>
+                        <li>The total output length would exceed what works well in one response</li>
+                        <li>You want quality at each stage rather than quantity</li>
+                    </ul>
+
+                    <h2>Technique 9: Negative Prompting</h2>
+                    <p><strong>What it is:</strong> You explicitly tell the AI what NOT to do. Instead of only describing what you want, you set boundaries around what to avoid.</p>
+                    <p><strong>When to use it:</strong> Use negative prompting when the AI tends to include things you do not want, when you want to avoid common patterns or clichés, or when specific content is off-limits for your use case.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>Write a LinkedIn post about why consistency matters in business.
+
+Requirements:
+- 150-200 words
+- Professional tone
+- Include one specific example
+- End with a question to encourage comments
+
+Do NOT include:
+- Clichés like "Rome wasn't built in a day" or "slow and steady wins the race"
+- Bullet points or numbered lists (this should read as a natural paragraph)
+- Emojis
+- Generic advice that applies to every industry
+- Self-promotion or sales language</code></pre>
+                    <p><strong>Why it works:</strong> AI models have default patterns they tend to fall into. Negative prompting breaks those patterns by explicitly blocking the predictable, overused content. This forces the AI to be more creative and specific.</p>
+                    <blockquote>
+                        <p><strong>Pro tip:</strong> Combine negative prompting with constraint-based prompting for the best results. Telling the AI what to do AND what not to do gives it clear guardrails on both sides.</p>
+                    </blockquote>
+
+                    <h2>Technique 10: Contextual Prompting</h2>
+                    <p><strong>What it is:</strong> You provide background information, context, and specific details about the situation before making your request. The AI uses this context to produce a more relevant and accurate response.</p>
+                    <p><strong>When to use it:</strong> Use contextual prompting when the task depends on specific details about your business, audience, industry, or situation. It is essential for any content that needs to feel personal or specific rather than generic.</p>
+                    <p><strong>Example prompt:</strong></p>
+                    <pre><code>Context: I run a small online store selling handmade candles. My target customers are women aged 25-45 who value sustainable, eco-friendly products. Our price range is $18-$45 per candle. We use soy wax, cotton wicks, and essential oils. Our brand voice is warm, approachable, and slightly poetic. We sell primarily through Instagram and our Shopify website.
+
+Task: Write 5 Instagram post captions for our upcoming "Summer Collection" launch. Each caption should highlight a different scent. Include a call to action to visit our website. Keep each caption under 50 words. Use our brand voice described above.</code></pre>
+                    <p><strong>Why it works:</strong> Without context, the AI would write generic candle captions. With context, it produces captions that sound like your brand, appeal to your specific audience, and reflect your actual products and pricing.</p>
+                    <p><strong>Key context to provide:</strong></p>
+                    <ul>
+                        <li>Your business or project details</li>
+                        <li>Target audience demographics and preferences</li>
+                        <li>Brand voice or tone guidelines</li>
+                        <li>Specific products, services, or topics involved</li>
+                        <li>Goals of the content (awareness, sales, education)</li>
+                        <li>Any constraints from previous lessons</li>
+                    </ul>
+
+                    <h2>Quick Reference: All 10 Techniques</h2>
+                    <p>Use this table to quickly decide which technique to use for your next prompt.</p>
+                    <figure class="wp-block-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Technique</th>
+                                    <th>Core Idea</th>
+                                    <th>Best For</th>
+                                    <th>Complexity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Zero-Shot</td>
+                                    <td>Ask directly, no examples</td>
+                                    <td>Simple, straightforward tasks</td>
+                                    <td>Low</td>
+                                </tr>
+                                <tr>
+                                    <td>Few-Shot</td>
+                                    <td>Show 1-3 examples of desired output</td>
+                                    <td>Specific format, tone, or pattern</td>
+                                    <td>Low</td>
+                                </tr>
+                                <tr>
+                                    <td>Chain-of-Thought</td>
+                                    <td>Ask for step-by-step reasoning</td>
+                                    <td>Math, logic, complex decisions</td>
+                                    <td>Low</td>
+                                </tr>
+                                <tr>
+                                    <td>Role-Based</td>
+                                    <td>Assign a specific persona or expert role</td>
+                                    <td>Expert advice, specific perspective</td>
+                                    <td>Low</td>
+                                </tr>
+                                <tr>
+                                    <td>Constraint-Based</td>
+                                    <td>Set explicit rules and limits</td>
+                                    <td>Precise requirements, professional content</td>
+                                    <td>Medium</td>
+                                </tr>
+                                <tr>
+                                    <td>Output Format</td>
+                                    <td>Define exact structure of the response</td>
+                                    <td>Tables, lists, structured data</td>
+                                    <td>Medium</td>
+                                </tr>
+                                <tr>
+                                    <td>Iterative Refinement</td>
+                                    <td>Refine through follow-up prompts</td>
+                                    <td>Complex projects, uncertain requirements</td>
+                                    <td>Medium</td>
+                                </tr>
+                                <tr>
+                                    <td>Prompt Chaining</td>
+                                    <td>Break task into sequential steps</td>
+                                    <td>Multi-part projects, research workflows</td>
+                                    <td>Medium</td>
+                                </tr>
+                                <tr>
+                                    <td>Negative Prompting</td>
+                                    <td>Tell the AI what NOT to include</td>
+                                    <td>Avoiding clichés, breaking default patterns</td>
+                                    <td>Low</td>
+                                </tr>
+                                <tr>
+                                    <td>Contextual</td>
+                                    <td>Provide background and situation details</td>
+                                    <td>Personalized, brand-specific, or niche content</td>
+                                    <td>Medium</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+
+                    <h2>When to Combine Techniques</h2>
+                    <p>The real power of prompt engineering comes from combining techniques. Most effective prompts use two or more techniques together. Here are some practical combinations:</p>
+                    <ul>
+                        <li><strong>Role + Context:</strong> "You are a social media manager for a fitness brand. Context: We sell protein supplements to gym-goers aged 18-35. Write 5 Instagram captions..."</li>
+                        <li><strong>Few-Shot + Constraints:</strong> Show examples of the desired output AND set rules about word count, tone, and forbidden phrases.</li>
+                        <li><strong>Chain-of-Thought + Output Format:</strong> Ask the AI to show its reasoning AND structure the result in a table or specific layout.</li>
+                        <li><strong>Negative + Contextual:</strong> Provide background information AND explicitly list what to avoid.</li>
+                        <li><strong>Prompt Chaining + Iterative Refinement:</strong> Break the task into steps AND refine each step before moving to the next.</li>
+                    </ul>
+                    <p>The key is to layer techniques based on what the task requires. Start simple, and add complexity only when needed.</p>
+
+                    <h2>Common Mistakes with These Techniques</h2>
+                    <p>Avoid these errors when applying the techniques above:</p>
+                    <ul>
+                        <li><strong>Overloading a single prompt.</strong> If you try to include role, constraints, examples, context, format, and negative prompts all at once, the output quality can drop. Break it into chaining or iterative refinement instead.</li>
+                        <li><strong>Using too few-shot examples.</strong> One or two examples are usually sufficient. Ten examples waste your prompt space without proportional improvement.</li>
+                        <li><strong>Being too vague with context.</strong> "I run a business" is not useful context. "I run a Shopify store selling handmade jewelry, primarily to women aged 20-40" is.</li>
+                        <li><strong>Forgetting to verify output.</strong> No technique guarantees 100% accuracy. Always review what the AI produces, especially for factual claims, numbers, and names.</li>
+                        <li><strong>Ignoring follow-up potential.</strong> Sometimes the best approach is to send a simple prompt first, then refine. Do not spend 10 minutes crafting the perfect prompt when a two-step approach gets better results faster.</li>
+                        <li><strong>Not adjusting for different models.</strong> Techniques that work well in ChatGPT may need tweaking in Claude or Gemini. Test and adjust based on the specific tool you are using.</li>
+                    </ul>
+
+                    <h2>Tips for Mastering Prompt Engineering</h2>
+                    <blockquote>
+                        <p><strong>Start simple.</strong> Begin with zero-shot or few-shot prompting. Add complexity only when the simple approach does not give you what you need.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p><strong>Keep a prompt library.</strong> Save prompts that produce good results. Over time, you will build a collection of reliable prompts you can reuse and adapt.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p><strong>Test small changes.</strong> When a prompt does not work well, change one variable at a time. If you change everything at once, you will not know what fixed the problem.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p><strong>Read the output carefully.</strong> The best prompt engineering means nothing if you do not review what the AI produces. Catch errors, adjust tone, and verify facts before using the output.</p>
+                    </blockquote>
+                    <blockquote>
+                        <p><strong>Practice with real tasks.</strong> Practice these techniques on tasks you actually need to do. The best way to learn is by applying the techniques to your real work.</p>
+                    </blockquote>
+
+                    <h2>Practical Exercise</h2>
+                    <p>Apply what you learned in this lesson by completing the following exercise:</p>
+                    <p><strong>Task:</strong> You need to write a professional email to a potential client about your freelance services. Use the following scenario:</p>
+                    <ul>
+                        <li>You are a freelance content writer</li>
+                        <li>The potential client runs a small SaaS company</li>
+                        <li>You want to offer blog writing services</li>
+                        <li>The email should be under 150 words</li>
+                        <li>Tone should be professional but not stiff</li>
+                    </ul>
+                    <p><strong>Steps:</strong></p>
+                    <ol>
+                        <li>Write the email using <strong>zero-shot prompting</strong> (just ask the AI to write it).</li>
+                        <li>Now write it again using <strong>role-based prompting</strong> (assign the AI a role like "experienced sales copywriter").</li>
+                        <li>Write it a third time using <strong>constraint-based prompting</strong> (set word limits, tone, required sections, and forbidden phrases).</li>
+                        <li>Compare all three outputs. Which version is most effective? What differences do you notice?</li>
+                        <li>Take the best version and use <strong>iterative refinement</strong> to polish it. Make at least two rounds of refinements.</li>
+                    </ol>
+                    <p>This exercise will help you understand when each technique produces the best results and how combining techniques improves output quality.</p>
+
+                    <h2>What You Learned</h2>
+                    <p>In this lesson, you learned ten essential prompt engineering techniques:</p>
+                    <ol>
+                        <li><strong>Zero-Shot Prompting</strong> for simple, direct tasks</li>
+                        <li><strong>Few-Shot Prompting</strong> for showing the AI what you want</li>
+                        <li><strong>Chain-of-Thought</strong> for step-by-step reasoning</li>
+                        <li><strong>Role-Based Prompting</strong> for expert perspective</li>
+                        <li><strong>Constraint-Based Prompting</strong> for precise requirements</li>
+                        <li><strong>Output Format Specification</strong> for structured results</li>
+                        <li><strong>Iterative Refinement</strong> for improving through follow-ups</li>
+                        <li><strong>Prompt Chaining</strong> for breaking complex tasks into steps</li>
+                        <li><strong>Negative Prompting</strong> for avoiding unwanted output</li>
+                        <li><strong>Contextual Prompting</strong> for personalized, relevant responses</li>
+                    </ol>
+                    <p>These techniques form the foundation of effective prompt engineering. In <a href="../lesson-5-how-to-write-better-prompts/">Lesson 5</a>, you will learn how to apply these techniques in step-by-step practical examples to write better prompts for real-world tasks.</p>
+                </div>
+                <footer class="entry-footer single-footer">
+                    <div class="post-navigation">
+                        <a href="../lesson-3-anatomy-of-a-powerful-prompt/" class="nav-prev">
+                            <span class="nav-label">Previous Lesson</span>
+                            <span class="nav-title">The Anatomy of a Powerful Prompt</span>
+                        </a>
+                        <a href="../lesson-5-how-to-write-better-prompts/" class="nav-next">
+                            <span class="nav-label">Next Lesson</span>
+                            <span class="nav-title">How to Write Better Prompts: Step-by-Step Practical Examples</span>
+                        </a>
+                    </div>
+                </footer>
+            </article>
+
+            <section class="related-posts-section">
+                <h2 class="related-posts-title">Related Articles</h2>
+                <div class="posts-grid">
+                    <article class="article-card">
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="cat-links"><a href="../../tutorials/">Tutorial</a></span>
+                            </div>
+                            <h3 class="article-title">
+                                <a href="../lesson-3-anatomy-of-a-powerful-prompt/">The Anatomy of a Powerful Prompt</a>
+                            </h3>
+                            <p class="article-excerpt">Learn the essential components that make up an effective AI prompt, from context to instructions to output format.</p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="cat-links"><a href="../../tutorials/">Tutorial</a></span>
+                            </div>
+                            <h3 class="article-title">
+                                <a href="../lesson-5-how-to-write-better-prompts/">How to Write Better Prompts: Step-by-Step Practical Examples</a>
+                            </h3>
+                            <p class="article-excerpt">Put your prompt engineering skills to work with hands-on examples across writing, research, coding, and business tasks.</p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="cat-links"><a href="../../tutorials/">Tutorial</a></span>
+                            </div>
+                            <h3 class="article-title">
+                                <a href="../lesson-1-what-is-prompt-engineering/">What Is Prompt Engineering? A Complete Beginner's Guide</a>
+                            </h3>
+                            <p class="article-excerpt">Understand the fundamentals of prompt engineering and why it is one of the most valuable AI skills you can learn.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+</div><!-- .site-content -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="footer-gradient-border" aria-hidden="true"></div>
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <a href="../../" aria-label="AI EARN HUB">
+                            <img src="../../assets/images/logo.svg" alt="AI EARN HUB" class="footer-site-logo" width="180" height="36" style="filter: brightness(0) invert(1); opacity: 0.9;">
+                        </a>
+                    </div>
+                    <p class="footer-description">
+                        AI Tools, Earning &amp; Digital Solutions                    </p>
+                    <div class="footer-social">
+                                                                                                                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../../ai-tools/">AI Tools</a></li>
+                        <li><a href="../../guides/">Guides</a></li>
+                        <li><a href="../../blog/">Blog</a></li>
+                        <li><a href="../../about/">About</a></li>
+                        <li><a href="../../contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="../../privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="../../terms-of-service/">Terms of Service</a></li>
+                        <li><a href="../../affiliate-disclosure/">Affiliate Disclosure</a></li>
+                        <li><a href="../../cookie-policy/">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Stay Updated</h4>
+                    <p class="footer-newsletter-text">
+                        Get the latest AI earning tips and tool reviews delivered to your inbox.                    </p>
+                    <form class="footer-newsletter" action="#" method="post">
+                        <input type="email" name="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-inner">
+                <p class="copyright">
+                    &copy; 2026                    <a href="../../">AI EARN HUB</a>.
+                    All rights reserved.                </p>
+                            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/ai-earn-hub-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="aeh-navigation-js" src="../../assets/js/navigation.js"></script>
+<script id="aeh-scroll-js" src="../../assets/js/scroll.js"></script>
+
+</body>
+</html>

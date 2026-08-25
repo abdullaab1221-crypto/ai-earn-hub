@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon.png">
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "What Is Prompt Engineering?",
+        "datePublished": "2026-08-25T10:00:00+05:00",
+        "dateModified": "2026-08-25T10:00:00+05:00",
+        "author": {
+            "@type": "Person",
+            "name": ""
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI EARN HUB",
+            "url": "/"
+        },
+        "description": "Learn what prompt engineering is, why it matters for working with AI tools like ChatGPT, and how the right instructions can dramatically improve AI outputs. Beginner-friendly guide.",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "/tutorials/lesson-1-what-is-prompt-engineering/"
+        }
+    }
+    </script>
+    
+
+<title>What Is Prompt Engineering? - AI Prompt Engineering Tutorial | AI Earn Hub</title>
+<meta name="description" content="Learn what prompt engineering is, why it matters for working with AI tools like ChatGPT, and how the right instructions can dramatically improve AI outputs. Beginner-friendly guide."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="../../tutorials/lesson-1-what-is-prompt-engineering/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="What Is Prompt Engineering? - AI Prompt Engineering Tutorial | AI Earn Hub" />
+<meta property="og:description" content="Learn what prompt engineering is, why it matters for working with AI tools like ChatGPT, and how the right instructions can dramatically improve AI outputs. Beginner-friendly guide." />
+<meta property="og:url" content="./" />
+<meta property="og:site_name" content="AI EARN HUB" />
+<meta property="article:section" content="Tutorials" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="What Is Prompt Engineering? - AI Prompt Engineering Tutorial | AI Earn Hub" />
+<meta name="twitter:description" content="Learn what prompt engineering is, why it matters for working with AI tools like ChatGPT, and how the right instructions can dramatically improve AI outputs. Beginner-friendly guide." />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="8 minutes" />
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+
+
+<link rel='stylesheet' id='aeh-google-fonts-css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&#038;display=swap' media='all' />
+<link rel='stylesheet' id='aeh-main-css' href="../../assets/css/main.css" media='all' />
+<link rel='stylesheet' id='aeh-premium-css' href="../../assets/css/premium-polish.css" media='all' />
+<link rel='stylesheet' id='aeh-responsive-css' href="../../assets/css/responsive.css" media='all' />
+
+
+<link rel='shortlink' href='/?p=101' />
+    
+    </head>
+<body class="wp-singular page-template-default single single-post wp-theme-ai-earn-hub-theme">
+
+<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+<header id="masthead" class="site-header sticky-header" role="banner">
+    <div class="header-inner container">
+        <div class="site-branding">
+            <a href="../../" rel="home" class="site-logo-link" aria-label="AI EARN HUB">
+                <img src="../../assets/images/logo.svg" alt="AI EARN HUB" class="site-logo" width="200" height="40">
+            </a>
+        </div>
+
+        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
+            </button>
+            <ul id="primary-menu" class="menu"><li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21"><a href="../../">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="../../ai-tools/">AI Tools</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="../../guides/">Guides</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-75"><a href="../../tutorials/" aria-current="page">Tutorials</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="../../blog/">Blog</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="../../about/">About</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="../../contact/">Contact</a></li>
+</ul>        </nav>
+
+        <div class="header-cta">
+            <a href="../../ai-tools/" class="btn btn-primary btn-sm">
+                Get Started            </a>
+        </div>
+    </div>
+</header>
+
+<div id="primary" class="site-content">
+
+<main id="main" class="site-main single-post" role="main">
+    <div class="container">
+        <div class="content-area">
+            <article class="single-article">
+                <header class="entry-header single-header">
+                    <div class="article-meta">
+                        <span class="cat-links"><a href="../../tutorials/">Tutorial</a></span>
+                        <span class="meta-separator">&middot;</span>
+                        <span class="reading-time">8 min read</span>
+                    </div>
+                    <h1 class="entry-title">What Is Prompt Engineering?</h1>
+                </header>
+
+                <div class="entry-content">
+                    <p>You have probably heard people talking about AI tools like ChatGPT, Claude, or Gemini. Maybe you have tried using one of them and noticed something frustrating: sometimes you get a great answer, and other times the response feels generic, off-topic, or useless.</p>
+
+                    <p>The difference usually is not the AI itself. It is the <strong>prompt</strong> you gave it.</p>
+
+                    <p>Prompt engineering is the skill of writing clear, specific instructions for AI tools so you get better, more useful results. It is one of the most practical skills you can learn in 2026, and this lesson will show you exactly what it is, why it matters, and how to start using it right away.</p>
+
+                    <p>This is <strong>Lesson 1</strong> of the <a href="../../tutorials/">AI Prompt Engineering for Beginners</a> tutorial series. If you are new to AI, this is the right place to start.</p>
+
+                    <h2>What Does "Prompt Engineering" Actually Mean?</h2>
+
+                    <p>Let us break it down in plain language.</p>
+
+                    <p>A <strong>prompt</strong> is the text you type into an AI tool when you want it to do something. It could be a question, a request, an instruction, or a combination of all three. When you type "Write me a poem about rain" into ChatGPT, that sentence is your prompt.</p>
+
+                    <p><strong>Prompt engineering</strong> is the practice of designing those prompts deliberately and strategically so the AI produces the best possible output. It is not about writing code or understanding complex technology. It is about learning how to communicate clearly with an AI system.</p>
+
+                    <p>Think of it this way: the AI is incredibly powerful, but it can only work with what you give it. A well-crafted prompt is like giving someone precise directions to a destination. A vague prompt is like saying "go somewhere nice" without any other details.</p>
+
+                    <h2>A Real-World Analogy: Giving Directions</h2>
+
+                    <p>Imagine you ask a friend to drive you to a restaurant.</p>
+
+                    <p><strong>Vague prompt:</strong> "Take me somewhere to eat."</p>
+
+                    <p>Your friend might take you to a fast-food place, a sushi bar, or a fancy restaurant. You did not say what you wanted, so they guessed. You might end up somewhere you do not enjoy.</p>
+
+                    <p><strong>Well-engineered prompt:</strong> "Take me to a casual Italian restaurant within 10 minutes of here that has vegetarian options and costs less than $20 per person."</p>
+
+                    <p>Now your friend knows exactly what you are looking for. They can give you a precise recommendation that matches your needs.</p>
+
+                    <p>AI works the same way. The more specific, detailed, and clear your prompt is, the more relevant and useful the AI's response will be. Prompt engineering is simply learning how to give those precise directions every time.</p>
+
+                    <h2>Why Prompt Engineering Matters</h2>
+
+                    <p>You might wonder if this is really a skill worth learning, or if AI tools will just get better at understanding vague instructions over time.</p>
+
+                    <p>Here is why prompt engineering matters right now:</p>
+
+                    <ul>
+                        <li><strong>Better results with less frustration.</strong> Instead of rewriting your question five times, you learn to get a useful answer on the first or second try.</li>
+                        <li><strong>More efficient use of your time.</strong> AI tools are fast, but only if you give them the right input. Poor prompts waste time on follow-up corrections.</li>
+                        <li><strong>Better outputs for professional use.</strong> If you use AI for work, school, or business, the quality of your prompts directly affects the quality of the final product.</li>
+                        <li><strong>A foundational skill for the AI era.</strong> As AI tools become part of everyday work, knowing how to use them effectively is becoming as important as knowing how to use a search engine.</li>
+                        <li><strong>Transferable across tools.</strong> The principles of good prompting work across ChatGPT, Claude, Gemini, Copilot, and most other AI tools.</li>
+                    </ul>
+
+                    <p>Prompt engineering is not a niche or complicated skill. It is a practical communication technique that anyone can learn, and it pays off immediately.</p>
+
+                    <h2>How Prompts Affect AI Output Quality</h2>
+
+                    <p>AI language models do not "think" the way humans do. They generate responses based on patterns in the text you provide. This means the words you choose, the context you include, and the structure of your prompt all influence the output.</p>
+
+                    <p>Here is what changes when you improve your prompts:</p>
+
+                    <h3>Relevance</h3>
+                    <p>A specific prompt produces a focused response. Instead of getting a broad overview of a topic, you get exactly the angle or detail you need.</p>
+
+                    <h3>Detail and Depth</h3>
+                    <p>When you tell the AI who the audience is, what format you want, and how long it should be, the response matches your requirements more closely.</p>
+
+                    <h3>Tone and Style</h3>
+                    <p>By specifying whether you want a professional, casual, technical, or friendly tone, you get output that sounds right for your purpose.</p>
+
+                    <h3>Accuracy</h3>
+                    <p>Prompts that include context and constraints help the AI stay on topic and reduce the chance of irrelevant or incorrect information.</p>
+
+                    <h2>Before and After: The Difference a Good Prompt Makes</h2>
+
+                    <p>Let us look at a practical example. Say you want help writing an email to a client.</p>
+
+                    <h3>Before (Vague Prompt)</h3>
+                    <pre><code>Write me an email to a client.</code></pre>
+
+                    <p><strong>What you might get:</strong> A generic email that does not mention the client's name, the project, the purpose of the email, or the tone you need. You would spend several minutes rewriting it to make it usable.</p>
+
+                    <h3>After (Well-Engineered Prompt)</h3>
+                    <pre><code>Write a professional follow-up email to a client named Sarah
+who attended our product demo last Tuesday. Thank her for
+her time, briefly recap the three features she was most
+interested in (real-time analytics, team dashboards, and
+automated reporting), and suggest a meeting next week to
+discuss pricing. Keep the tone friendly but professional.
+The email should be under 200 words.</code></pre>
+
+                    <p><strong>What you get:</strong> A focused, well-structured email that is almost ready to send. It includes the client's name, references specific features, has a clear call to action, and matches the tone you requested. With minor edits, it is ready to go.</p>
+
+                    <p>The AI is the same in both cases. The only difference is the quality of the prompt.</p>
+
+                    <h2>Key Terminology to Know</h2>
+
+                    <p>Before we go further, here are the key terms you will encounter throughout this tutorial series:</p>
+
+                    <ul>
+                        <li><strong>Prompt</strong> — The instruction, question, or input you give to an AI tool. This is the starting point of every interaction.</li>
+                        <li><strong>Input</strong> — Often used interchangeably with "prompt." It refers to the text you provide to the AI.</li>
+                        <li><strong>Output</strong> — The response or result the AI generates based on your prompt.</li>
+                        <li><strong>Context</strong> — Background information you include in your prompt to help the AI understand the situation. For example, telling the AI who your audience is or what the content is for.</li>
+                        <li><strong>Token</strong> — A chunk of text that the AI processes. In simple terms, roughly one token is about three-quarters of a word. This matters when you are working within length limits.</li>
+                        <li><strong>Temperature</strong> — A setting in some AI tools that controls creativity vs. predictability. Higher temperature means more creative variation; lower temperature means more focused, predictable output.</li>
+                        <li><strong>System prompt</strong> — A pre-set instruction that tells the AI how to behave for every response in a conversation. Some tools let you set this; others use it behind the scenes.</li>
+                        <li><strong>Zero-shot prompting</strong> — Giving the AI a prompt without any examples. For instance, "Summarize this article."</li>
+                        <li><strong>Few-shot prompting</strong> — Giving the AI one or more examples before asking it to do the task. This helps the AI understand exactly what you want.</li>
+                    </ul>
+
+                    <p>You do not need to memorize all of these right now. They will make more sense as you progress through the lessons. Just know that these terms exist.</p>
+
+                    <h2>The Role of Prompt Engineering in the Age of AI</h2>
+
+                    <p>We are living through a period where AI tools are becoming integrated into almost every area of work and daily life. Writing, research, coding, design, customer support, marketing, education — AI is touching all of it.</p>
+
+                    <p>The people who get the most value from these tools are not necessarily the ones with the most technical knowledge. They are the ones who know how to ask the right questions and give clear instructions.</p>
+
+                    <p>Prompt engineering is becoming the bridge between what AI can do and what you actually need it to do. It is the difference between using AI as a toy and using it as a genuine productivity tool.</p>
+
+                    <p>Whether you are a student trying to understand a concept, a freelancer writing content for clients, a small business owner automating tasks, or a professional looking to save time, the ability to craft effective prompts gives you a real advantage.</p>
+
+                    <h2>How to Think About Prompts: A Step-by-Step Approach</h2>
+
+                    <p>You do not need to follow a rigid formula for every prompt. But having a mental framework helps you consistently write better instructions. Here is a simple approach you can use:</p>
+
+                    <h3>Step 1: Define Your Goal</h3>
+                    <p>Before you type anything, ask yourself: <strong>What exactly do I want the AI to produce?</strong> Do you need an email, a summary, a list of ideas, an explanation, a draft, or something else? Be clear about the end result you are after.</p>
+
+                    <h3>Step 2: Provide Context</h3>
+                    <p>Give the AI the background information it needs. Who is this for? What is the situation? What constraints or requirements exist? The more relevant context you include, the more tailored the output will be.</p>
+
+                    <h3>Step 3: Specify the Format</h3>
+                    <p>Tell the AI how you want the output structured. Do you want a numbered list? A paragraph? A table? A formal email? A step-by-step guide? Format instructions help you get exactly what you need without extra editing.</p>
+
+                    <h3>Step 4: Set Constraints</h3>
+                    <p>If there are limitations, mention them. Word count, tone, audience, things to avoid, specific details to include — constraints help the AI stay within your requirements.</p>
+
+                    <h3>Step 5: Refine and Iterate</h3>
+                    <p>Your first prompt does not have to be perfect. If the output is not quite right, tell the AI what to change. "Make it shorter," "Change the tone to be more formal," "Add more examples" — these follow-up instructions are part of the process.</p>
+
+                    <h2>Common Beginner Mistakes</h2>
+
+                    <p>Most people who get poor results from AI tools are making one or more of these common mistakes:</p>
+
+                    <ul>
+                        <li><strong>Being too vague.</strong> Prompts like "Write about marketing" or "Help me with my business" do not give the AI enough information to produce useful output.</li>
+                        <li><strong>Not specifying the audience.</strong> A blog post for a teenager reads very differently from a report for a CEO. If you do not tell the AI who it is for, it guesses.</li>
+                        <li><strong>Skipping the format instructions.</strong> If you need a list, say you need a list. If you need an email, say you need an email. The AI cannot read your mind.</li>
+                        <li><strong>Expecting perfection on the first try.</strong> Prompt engineering is iterative. Great results often come from refining your prompt, not from getting it perfect on the first attempt.</li>
+                        <li><strong>Ignoring follow-up.</strong> If the output is 80% right, do not start over. Tell the AI what to adjust. It remembers the conversation context.</li>
+                        <li><strong>Not giving examples.</strong> When the task is specific or unusual, showing the AI an example of what you want (few-shot prompting) dramatically improves results.</li>
+                    </ul>
+
+                    <blockquote>
+                        <p><strong>Key takeaway:</strong> The quality of your AI output is almost always a reflection of the quality of your input. Treat your prompts as a first draft, not a finished product.</p>
+                    </blockquote>
+
+                    <h2>Tips for Writing Better Prompts</h2>
+
+                    <p>Here are practical tips you can apply immediately:</p>
+
+                    <ul>
+                        <li><strong>Be specific.</strong> Instead of "Write a blog post about fitness," try "Write a 1,000-word blog post about beginner strength training for women over 40, with a friendly tone and practical tips."</li>
+                        <li><strong>Give examples when possible.</strong> If you want a particular style or format, show the AI an example. This is especially powerful for creative or repetitive tasks.</li>
+                        <li><strong>Break complex tasks into steps.</strong> If you need a long piece of work, start with an outline, then expand section by section. This gives you more control over the result.</li>
+                        <li><strong>Tell the AI who to be.</strong> Starting your prompt with "Act as a..." or "You are a..." gives the AI a perspective to work from. For example: "Act as a patient teacher explaining quantum physics to a high school student."</li>
+                        <li><strong>Specify what to avoid.</strong> If you do not want jargon, say so. If you want to avoid certain topics, mention it. Negative instructions are just as useful as positive ones.</li>
+                        <li><strong>Review and edit.</strong> Even the best prompt produces output that benefits from a human review. Check facts, tighten the language, and make it your own.</li>
+                    </ul>
+
+                    <h2>Practical Exercise</h2>
+
+                    <p>The best way to learn prompt engineering is to practice. Try this exercise right now with any AI tool you have access to (ChatGPT, Claude, Gemini, or any other).</p>
+
+                    <p><strong>Exercise: Compare a Vague Prompt vs. a Detailed Prompt</strong></p>
+
+                    <p>Step 1: Type this vague prompt into your AI tool:</p>
+
+                    <pre><code>Tell me about dogs.</code></pre>
+
+                    <p>Read the response. Notice that it is probably a broad, general overview that might not be very useful for any specific purpose.</p>
+
+                    <p>Step 2: Now type this detailed prompt:</p>
+
+                    <pre><code>Explain the top 5 benefits of adopting a rescue dog for a
+family with young children. For each benefit, include a
+brief explanation and one practical tip for making the
+transition smooth. Keep the tone warm and encouraging.
+Write about 400 words.</code></pre>
+
+                    <p>Compare the two responses. The second one will be more focused, more useful, and more tailored to a specific need — all because the prompt gave the AI clearer direction.</p>
+
+                    <p>This is prompt engineering in action. You are not learning a programming language. You are learning how to communicate more effectively with an AI system.</p>
+
+                    <h2>What You Learned in This Lesson</h2>
+
+                    <p>Let us recap the key points:</p>
+
+                    <ul>
+                        <li>A <strong>prompt</strong> is the instruction you give to an AI tool.</li>
+                        <li><strong>Prompt engineering</strong> is the skill of writing clear, specific, well-structured prompts to get better AI outputs.</li>
+                        <li>Better prompts produce more relevant, detailed, and useful responses.</li>
+                        <li>The core framework is: define your goal, provide context, specify format, set constraints, and refine.</li>
+                        <li>Common mistakes include being too vague, skipping context, and expecting perfection on the first try.</li>
+                        <li>Prompt engineering is a practical, transferable skill that works across almost all AI tools.</li>
+                    </ul>
+
+                    <h2>What Comes Next</h2>
+
+                    <p>In <a href="../lesson-2-how-ai-prompts-work/">Lesson 2: How AI Prompts Actually Work</a>, you will learn what happens behind the scenes when you type a prompt into an AI tool. Understanding how the AI processes your input will make you even better at crafting prompts that get results.</p>
+
+                    <p>If you want to explore more before continuing, check out our <a href="../../guides/">guides</a> or browse the <a href="../../ai-tools/">AI tools</a> directory to see what is available.</p>
+
+                    <h2>Course Lessons</h2>
+
+                    <ul>
+                        <li><strong>Lesson 1: What Is Prompt Engineering?</strong> (You are here)</li>
+                        <li><a href="../lesson-2-how-ai-prompts-work/">Lesson 2: How AI Prompts Actually Work</a></li>
+                        <li><a href="../lesson-3-anatomy-of-a-powerful-prompt/">Lesson 3: The Anatomy of a Powerful Prompt</a></li>
+                        <li><a href="../lesson-4-prompt-engineering-techniques/">Lesson 4: 10 Prompt Engineering Techniques Every Beginner Should Know</a></li>
+                        <li><a href="../lesson-5-how-to-write-better-prompts/">Lesson 5: How to Write Better Prompts: Step-by-Step Practical Examples</a></li>
+                        <li>Lesson 6: Coming Soon</li>
+                        <li>Lesson 7: Coming Soon</li>
+                        <li>Lesson 8: Coming Soon</li>
+                        <li>Lesson 9: Coming Soon</li>
+                        <li>Lesson 10: Coming Soon</li>
+                        <li>Lesson 11: Coming Soon</li>
+                        <li>Lesson 12: Coming Soon</li>
+                        <li>Lesson 13: Coming Soon</li>
+                        <li>Lesson 14: Coming Soon</li>
+                        <li>Lesson 15: Coming Soon</li>
+                        <li>Lesson 16: Coming Soon</li>
+                        <li>Lesson 17: Coming Soon</li>
+                        <li>Lesson 18: Coming Soon</li>
+                    </ul>
+
+                </div>
+
+                <footer class="entry-footer single-footer">
+                    <div class="post-navigation">
+                        <a href="../lesson-2-how-ai-prompts-work/" class="nav-next">
+                            <span class="nav-label">Next Lesson</span>
+                            <span class="nav-title">How AI Prompts Actually Work</span>
+                        </a>
+                        <a href="../../tutorials/" class="nav-prev" style="text-align:center;">
+                            <span class="nav-label">Back to</span>
+                            <span class="nav-title">All Tutorials</span>
+                        </a>
+                    </div>
+                </footer>
+            </article>
+        </div>
+    </div>
+</main>
+
+</div><!-- .site-content -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="footer-gradient-border" aria-hidden="true"></div>
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <a href="../../" aria-label="AI EARN HUB">
+                            <img src="../../assets/images/logo.svg" alt="AI EARN HUB" class="footer-site-logo" width="180" height="36" style="filter: brightness(0) invert(1); opacity: 0.9;">
+                        </a>
+                    </div>
+                    <p class="footer-description">
+                        AI Tools, Earning &amp; Digital Solutions                    </p>
+                    <div class="footer-social">
+                                                                                                                                                                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../../ai-tools/">AI Tools</a></li>
+                        <li><a href="../../guides/">Guides</a></li>
+                        <li><a href="../../blog/">Blog</a></li>
+                        <li><a href="../../about/">About</a></li>
+                        <li><a href="../../contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="../../privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="../../terms-of-service/">Terms of Service</a></li>
+                        <li><a href="../../affiliate-disclosure/">Affiliate Disclosure</a></li>
+                        <li><a href="../../cookie-policy/">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Stay Updated</h4>
+                    <p class="footer-newsletter-text">
+                        Get the latest AI earning tips and tool reviews delivered to your inbox.                    </p>
+                    <form class="footer-newsletter" action="#" method="post">
+                        <input type="email" name="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-inner">
+                <p class="copyright">
+                    &copy; 2026                    <a href="../../">AI EARN HUB</a>.
+                    All rights reserved.                </p>
+                            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/ai-earn-hub-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="aeh-navigation-js" src="../../assets/js/navigation.js"></script>
+<script id="aeh-scroll-js" src="../../assets/js/scroll.js"></script>
+
+</body>
+</html>

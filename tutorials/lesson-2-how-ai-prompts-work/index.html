@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-16.png">
+    <link rel="apple-touch-icon" href="../../assets/images/apple-touch-icon.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How AI Prompts Actually Work",
+        "description": "Discover how AI prompts work behind the scenes. Learn what happens when you type a prompt, how AI models process your instructions, and why small wording changes produce different results.",
+        "author": {
+            "@type": "Organization",
+            "name": "AI Earn Hub"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI Earn Hub",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "../../assets/images/logo.png"
+            }
+        },
+        "datePublished": "2026-01-15",
+        "dateModified": "2026-01-15",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "../../tutorials/lesson-2-how-ai-prompts-work/"
+        },
+    }
+    </script>
+
+    <title>How AI Prompts Actually Work - AI Prompt Engineering Tutorial | AI Earn Hub</title>
+    <meta name="description" content="Discover how AI prompts work behind the scenes. Learn what happens when you type a prompt, how AI models process your instructions, and why small wording changes produce different results.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+    <link rel="canonical" href="../../tutorials/lesson-2-how-ai-prompts-work/">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="How AI Prompts Actually Work - AI Prompt Engineering Tutorial">
+    <meta property="og:description" content="Discover how AI prompts work behind the scenes. Learn what happens when you type a prompt, how AI models process your instructions, and why small wording changes produce different results.">
+    <meta property="og:url" content="../../tutorials/lesson-2-how-ai-prompts-work/">
+    <meta property="og:site_name" content="AI Earn Hub">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How AI Prompts Actually Work - AI Prompt Engineering Tutorial">
+    <meta name="twitter:description" content="Discover how AI prompts work behind the scenes. Learn what happens when you type a prompt, how AI models process your instructions, and why small wording changes produce different results.">
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/premium-polish.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+
+    <link rel="shortlink" href="../../?p=102">
+</head>
+<body class="wp-singular page-template-default single single-post wp-theme-ai-earn-hub-theme">
+
+<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+<header id="masthead" class="site-header sticky-header" role="banner">
+    <div class="header-inner container">
+        <div class="site-branding">
+            <a href="../../" rel="home" class="site-logo-link" aria-label="AI EARN HUB">
+                <img src="../../assets/images/logo.svg" alt="AI EARN HUB" class="site-logo" width="200" height="40">
+            </a>
+        </div>
+
+        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
+            </button>
+            <ul id="primary-menu" class="menu"><li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21"><a href="../../">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="../../ai-tools/">AI Tools</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="../../guides/">Guides</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-75"><a href="../../tutorials/" aria-current="page">Tutorials</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="../../blog/">Blog</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="../../about/">About</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="../../contact/">Contact</a></li>
+</ul>        </nav>
+
+        <div class="header-cta">
+            <a href="../../ai-tools/" class="btn btn-primary btn-sm">
+                Get Started            </a>
+        </div>
+    </div>
+</header>
+
+<div id="primary" class="site-content">
+
+    <main id="main" class="site-main single-post" role="main">
+        <div class="container">
+            <div class="content-area">
+                <article class="single-article">
+                    <header class="entry-header single-header">
+                        <div class="article-meta">
+                            <span class="cat-links"><a href="../../tutorials/">Tutorial</a></span>
+                            <span class="meta-separator">&middot;</span>
+                            <span class="reading-time">9 min read</span>
+                        </div>
+                        <h1 class="entry-title">How AI Prompts Actually Work</h1>
+                    </header>
+                    <div class="entry-content">
+
+                        <p>You have probably used an AI tool by now. Maybe you typed a question into ChatGPT, asked an AI image generator to create a picture, or used an AI writing assistant to draft an email. But have you ever wondered what actually happens between the moment you type your words and the moment the AI responds? Understanding this process is the foundation of becoming skilled at prompt engineering.</p>
+
+                        <p>In this lesson, we will pull back the curtain on how AI models receive, interpret, and respond to your prompts. You do not need a technical background to understand this. We will keep things simple and practical, focusing on the concepts that will directly help you write better prompts.</p>
+
+                        <h2>What Happens When You Type a Prompt Into an AI Tool</h2>
+
+                        <p>When you submit a prompt to an AI tool like ChatGPT, Claude, or Gemini, a series of steps happen behind the scenes in milliseconds. Here is the simplified version:</p>
+
+                        <ol>
+                            <li><strong>Your text is converted into numbers.</strong> The AI does not read words the way you do. Instead, your prompt is broken into small pieces called tokens, and each token is assigned a numerical value.</li>
+                            <li><strong>The AI analyzes the sequence of tokens.</strong> It looks at the relationships between those tokens, considering grammar, meaning, context, and patterns it learned during training.</li>
+                            <li><strong>The AI predicts what should come next.</strong> Based on your input, it calculates probabilities for every possible next token and selects the most appropriate one.</li>
+                            <li><strong>This prediction repeats token by token.</strong> The AI generates its response one piece at a time, each time considering the full prompt plus everything it has written so far.</li>
+                            <li><strong>The response is converted back into text.</strong> The sequence of predicted tokens is assembled into words and sentences, then displayed on your screen.</li>
+                        </ol>
+
+                        <p>The critical insight here is that AI does not "understand" your prompt in the way a human does. It is performing sophisticated pattern matching. This is why the way you phrase your prompt matters so much. The same request phrased differently can activate different patterns in the model and produce very different results.</p>
+
+                        <h2>Tokenization Explained Simply</h2>
+
+                        <p>Tokenization is the process of breaking your text into smaller units that the AI can work with. These tokens are not always whole words. They can be parts of words, single words, or even groups of words depending on the tokenizer being used.</p>
+
+                        <p>For example, the sentence "I love learning about AI prompts" might be tokenized as:</p>
+
+                        <pre><code>["I", " love", " learning", " about", " AI", " prompts"]</code></pre>
+
+                        <p>But a word like "artificial" might be split into two tokens:</p>
+
+                        <pre><code>[" art", "ificial"]</code></pre>
+
+                        <p>Why does this matter for prompt engineering? Two important reasons:</p>
+
+                        <ul>
+                            <li><strong>Token limits:</strong> Every AI model has a maximum number of tokens it can process in a single conversation. This includes your prompt, the AI's response, and any conversation history. If your prompt is too long, earlier parts may be effectively ignored.</li>
+                            <li><strong>Precise language saves tokens:</strong> Using concise, clear language not only produces better results but also leaves more room for the AI to generate a thorough response.</li>
+                        </ul>
+
+                        <blockquote>
+                            <p><strong>Tip:</strong> Most AI tools show you token counts. In ChatGPT, you can see this in the bottom corner. Keeping your prompts focused and efficient ensures you get the most out of your token budget.</p>
+                        </blockquote>
+
+                        <h2>Why Context Matters to AI</h2>
+
+                        <p>AI models are called "large language models" because they were trained on enormous amounts of text. During this training, they learned statistical relationships between words, phrases, and concepts. When you write a prompt, the AI uses context to determine which patterns are most relevant.</p>
+
+                        <h3>Local Context</h3>
+
+                        <p>This is the immediate context surrounding your request. If you write "Write a poem about the ocean," the AI focuses on words like "poem," "ocean," and the genre expectations that come with those terms. The specificity of your request directly influences which patterns the model activates.</p>
+
+                        <h3>Broad Context</h3>
+
+                        <p>AI models also carry general knowledge from training. When you mention "Python," the model considers whether you mean the programming language or the snake based on surrounding context. When you say "Apple," it tries to determine if you mean the company or the fruit based on what else you have written.</p>
+
+                        <h3>Conversational Context</h3>
+
+                        <p>In an ongoing conversation, everything you have said previously becomes part of the context. The AI considers your earlier messages when interpreting your current prompt. This is why rephrasing a request in a new conversation can sometimes produce a different result than continuing an existing one.</p>
+
+                        <h2>How AI Decides What to Generate Next</h2>
+
+                        <p>Every time the AI generates a token, it is essentially making a probability calculation. It considers all possible next tokens and assigns each one a probability score. Then it selects a token based on those probabilities.</p>
+
+                        <p>This process is influenced by several factors:</p>
+
+                        <ul>
+                            <li><strong>Your prompt:</strong> The most direct influence. A clear, specific prompt narrows the range of likely outputs.</li>
+                            <li><strong>System instructions:</strong> Many AI tools include hidden instructions that guide behavior. These shape the AI's tone, format, and approach.</li>
+                            <li><strong>Temperature settings:</strong> This controls how random or deterministic the output is. We will cover this in more detail below.</li>
+                            <li><strong>Training patterns:</strong> The statistical patterns the model learned during training influence its choices.</li>
+                        </ul>
+
+                        <p>This probabilistic nature explains why you might get slightly different responses when you run the same prompt twice. The AI is sampling from a probability distribution, and small variations in sampling can lead to different word choices.</p>
+
+                        <h2>The Difference Between a Vague Prompt and a Specific One</h2>
+
+                        <p>This is where prompt engineering becomes genuinely powerful. Let us look at concrete examples of how specificity changes AI output.</p>
+
+                        <h3>Vague Prompt Example</h3>
+
+                        <pre><code>Write me a blog post about marketing.</code></pre>
+
+                        <p>This prompt gives the AI almost no direction. It could write about social media marketing, email marketing, content marketing, marketing history, marketing strategies, or dozens of other topics. The length, tone, audience, and format are all undefined. The AI has to guess what you want, and its guess might not match your expectations.</p>
+
+                        <h3>Specific Prompt Example</h3>
+
+                        <pre><code>Write a 1000-word blog post for small business owners about
+5 practical email marketing strategies they can implement
+this week. Use a friendly, conversational tone. Include
+real examples for each strategy. End with a call to action
+encouraging readers to try at least one strategy today.</code></pre>
+
+                        <p>This prompt eliminates ambiguity. The AI knows the topic (email marketing strategies), the audience (small business owners), the length (1000 words), the tone (friendly and conversational), the format (list of 5 with examples), and the desired ending (call to action). The output will be dramatically more useful and aligned with your needs.</p>
+
+                        <h2>Before and After: How Wording Changes Results</h2>
+
+                        <p>Let us look at several examples that demonstrate how small wording changes produce different results.</p>
+
+                        <h3>Example 1: Tone Adjustment</h3>
+
+                        <p><strong>Before:</strong></p>
+                        <pre><code>Tell me about climate change.</code></pre>
+
+                        <p><strong>After:</strong></p>
+                        <pre><code>Explain climate change in a way that a curious
+12-year-old would find interesting and easy to understand.</code></pre>
+
+                        <p>The first prompt could produce a dense scientific summary. The second prompt produces accessible, age-appropriate content with an engaging tone. The audience specification completely transforms the output.</p>
+
+                        <h3>Example 2: Format Control</h3>
+
+                        <p><strong>Before:</strong></p>
+                        <pre><code>List productivity tips.</code></pre>
+
+                        <p><strong>After:</strong></p>
+                        <pre><code>Create a numbered list of 10 productivity tips
+for remote workers. For each tip, provide:
+- The tip in one sentence
+- A brief explanation of why it works
+- One practical way to start implementing it today</code></pre>
+
+                        <p>The second prompt gives the AI a clear structure to follow. The result is organized, consistent, and immediately actionable. The format specification acts as a template that shapes every part of the response.</p>
+
+                        <h3>Example 3: Persona and Expertise</h3>
+
+                        <p><strong>Before:</strong></p>
+                        <pre><code>How do I invest money?</code></pre>
+
+                        <p><strong>After:</strong></p>
+                        <pre><code>You are a certified financial advisor with 20 years
+of experience. I am a 30-year-old professional with
+$10,000 to invest and a moderate risk tolerance.
+Explain three investment strategies I should consider,
+explaining the risks and potential returns of each
+in plain language.</code></pre>
+
+                        <p>Adding a persona, personal context, and specific constraints transforms a generic question into a targeted consultation. The AI can now tailor its advice to your specific situation rather than giving broad, less useful guidance.</p>
+
+                        <h2>How Conversation History Affects AI Responses</h2>
+
+                        <p>One of the most important things to understand about AI tools is that they maintain context within a conversation. Everything you have said, and everything the AI has said, influences how it interprets your next message.</p>
+
+                        <p>This can work in your favor. If you tell the AI in your first message that you are writing a novel set in 1920s Paris, and then in your fifth message you ask for character suggestions, the AI will remember the setting and time period. You do not need to repeat yourself.</p>
+
+                        <p>However, conversation history can also cause problems. If earlier messages contained confusing or contradictory instructions, the AI might carry those issues forward. Long conversations can also lead to the AI "forgetting" earlier instructions as they fall outside its context window.</p>
+
+                        <blockquote>
+                            <p><strong>Tip:</strong> If you notice the AI producing off-topic or inconsistent responses, try starting a fresh conversation. This clears the context and gives you a clean slate. You can copy your most important instructions into the new conversation to maintain continuity.</p>
+                        </blockquote>
+
+                        <h3>Strategies for Managing Context</h3>
+
+                        <ul>
+                            <li><strong>Front-load important instructions:</strong> Put your most critical requirements at the beginning of your prompt where the AI pays the most attention.</li>
+                            <li><strong>Reference earlier points explicitly:</strong> Instead of saying "do it like before," say "using the same professional tone from my earlier request."</li>
+                            <li><strong>Start fresh when needed:</strong> Do not hesitate to begin a new conversation if the current one has become cluttered with irrelevant context.</li>
+                            <li><strong>Summarize when continuing:</strong> If you need to continue a long conversation, briefly summarize your key requirements in a new message.</li>
+                        </ul>
+
+                        <h2>The Role of Temperature and Creativity Settings</h2>
+
+                        <p>Many AI tools, especially the API versions, allow you to adjust a setting called "temperature." This directly affects how the AI generates responses, and understanding it gives you more control over your results.</p>
+
+                        <h3>What Temperature Does</h3>
+
+                        <p>Temperature controls the randomness of the AI's token selection:</p>
+
+                        <ul>
+                            <li><strong>Low temperature (0.0 - 0.3):</strong> The AI strongly favors the most probable tokens. Output is more predictable, focused, and factual. Best for code generation, data analysis, and factual Q&A.</li>
+                            <li><strong>Medium temperature (0.4 - 0.7):</strong> A balance between predictability and creativity. Good for most general-purpose tasks like writing, summarizing, and brainstorming.</li>
+                            <li><strong>High temperature (0.8 - 1.0+):</strong> The AI is more willing to choose less probable tokens, leading to more creative, surprising, and sometimes unusual output. Good for creative writing, generating ideas, and exploring unconventional angles.</li>
+                        </ul>
+
+                        <p>Even if you cannot directly control temperature in a particular tool, understanding this concept helps you appreciate why the same prompt can produce different styles of output across different platforms. Each platform may use different default temperature settings.</p>
+
+                        <h2>Common Misconceptions About How AI Reads Prompts</h2>
+
+                        <p>There are several beliefs about AI that can actually hold you back from effective prompt engineering. Let us address the most common ones.</p>
+
+                        <h3>Misconception 1: "AI Understands My Intent"</h3>
+
+                        <p>AI does not read your mind. It processes the literal text you provide. If your prompt is ambiguous, the AI will fill in the gaps based on statistical patterns, which may not match what you intended. Always be explicit about what you want.</p>
+
+                        <h3>Misconception 2: "Longer Prompts Are Always Better"</h3>
+
+                        <p>Length does not equal quality. A long prompt filled with redundant information can actually confuse the model. What matters is including the right details. A concise, well-structured prompt often outperforms a lengthy, rambling one.</p>
+
+                        <h3>Misconception 3: "AI Remembers Everything From Training"</h3>
+
+                        <p>AI models have knowledge cutoffs. They do not know about events that happened after their training data was collected. They also cannot access the internet, read current news, or browse websites unless specifically given those capabilities through tools.</p>
+
+                        <h3>Misconception 4: "The AI Is Arguing With Me"</h3>
+
+                        <p>When an AI seems to push back on your request, it is not expressing an opinion. It is following patterns in its training that associate certain types of requests with certain responses. Reframing your prompt usually resolves this without conflict.</p>
+
+                        <h2>Tips for Understanding AI Behavior</h2>
+
+                        <p>Now that you understand how prompts work, here are practical tips for working more effectively with AI:</p>
+
+                        <ul>
+                            <li><strong>Test small changes:</strong> When a prompt does not produce the result you want, change one element at a time. This helps you understand which specific changes affect the output.</li>
+                            <li><strong>Pay attention to what the AI emphasizes:</strong> The AI often bolds, highlights, or emphasizes certain parts of its response. This can indicate what it considered most important based on your prompt.</li>
+                            <li><strong>Use examples in your prompts:</strong> If you want a specific style or format, include a brief example in your prompt. AI models are excellent at pattern matching, and an example can communicate your expectations more effectively than a description.</li>
+                            <li><strong>Iterate and refine:</strong> Think of your first prompt as a starting point, not a final product. The best results often come from refining your prompt based on the AI's first response.</li>
+                            <li><strong>Read AI responses carefully for clues:</strong> If the AI asks clarifying questions, that often means your prompt was ambiguous. If it gives overly generic advice, it likely needs more specific context about your situation.</li>
+                        </ul>
+
+                        <h2>Practical Exercise</h2>
+
+                        <p>Let us put this knowledge into practice. Complete the following exercise to solidify your understanding of how prompts work.</p>
+
+                        <h3>Exercise: Transform a Vague Prompt</h3>
+
+                        <p>Start with this vague prompt:</p>
+
+                        <pre><code>Help me write an email.</code></pre>
+
+                        <p>Now, rewrite it to include:</p>
+
+                        <ul>
+                            <li>The purpose of the email (what are you trying to accomplish?)</li>
+                            <li>The recipient (who is this going to?)</li>
+                            <li>The tone you want (formal, friendly, apologetic, enthusiastic?)</li>
+                            <li>Any specific details that should be included</li>
+                            <li>The desired outcome (what do you want the reader to do after reading?)</li>
+                        </ul>
+
+                        <p>Compare the AI's response to your rewritten prompt against its response to the original vague prompt. Notice how the specificity completely transforms the output.</p>
+
+                        <h3>Challenge: Same Goal, Different Phrasings</h3>
+
+                        <p>Try asking the AI to explain blockchain using three different approaches:</p>
+
+                        <pre><code>Prompt 1: Explain blockchain to me.</code></pre>
+
+                        <pre><code>Prompt 2: Explain blockchain using an analogy that
+a 10-year-old would understand.</code></pre>
+
+                        <pre><code>Prompt 3: You are a university professor teaching
+an introductory computer science class. Explain
+blockchain technology in 300 words, covering what
+it is, how it works, and why it matters.</code></pre>
+
+                        <p>Observe how each version produces a fundamentally different response in tone, depth, and approach. This exercise demonstrates the power of context, persona, and specificity in prompt engineering.</p>
+
+                        <h2>Key Takeaways</h2>
+
+                        <ul>
+                            <li>AI models process prompts as sequences of tokens, not as human language.</li>
+                            <li>Specificity in your prompts dramatically improves output quality.</li>
+                            <li>Context from earlier conversation messages influences how the AI interprets new prompts.</li>
+                            <li>Small wording changes can completely transform the AI's response.</li>
+                            <li>Temperature settings affect how creative or predictable the output is.</li>
+                            <li>Understanding these mechanics gives you a significant advantage in getting useful results from AI tools.</li>
+                        </ul>
+
+                        <p>Understanding how AI prompts work is not just theoretical knowledge. It is the practical foundation that will make every lesson in this course more effective. As you move forward, keep these concepts in mind and you will find yourself naturally writing better prompts.</p>
+
+                        <div class="related-articles">
+                            <h2>Related Lessons</h2>
+                            <div class="related-grid">
+                                <a href="../lesson-1-what-is-prompt-engineering/" class="related-card">
+                                    <span class="related-number">Lesson 1</span>
+                                    <h3>What Is Prompt Engineering?</h3>
+                                    <p>Discover the fundamentals of prompt engineering and why this skill is becoming essential in the age of AI.</p>
+                                </a>
+                                <a href="../lesson-3-anatomy-of-a-powerful-prompt/" class="related-card">
+                                    <span class="related-number">Lesson 3</span>
+                                    <h3>The Anatomy of a Powerful Prompt</h3>
+                                    <p>Break down the essential components that make prompts effective and learn to structure them for maximum impact.</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <footer class="entry-footer single-footer">
+                        <div class="post-navigation">
+                            <a href="../lesson-1-what-is-prompt-engineering/" class="nav-prev">
+                                <span class="nav-label">Previous Lesson</span>
+                                <span class="nav-title">What Is Prompt Engineering?</span>
+                            </a>
+                            <a href="../lesson-3-anatomy-of-a-powerful-prompt/" class="nav-next">
+                                <span class="nav-label">Next Lesson</span>
+                                <span class="nav-title">The Anatomy of a Powerful Prompt</span>
+                            </a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </main>
+
+</div><!-- .site-content -->
+
+    <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="footer-gradient-border" aria-hidden="true"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-about">
+                        <div class="footer-logo">
+                            <a href="../../" aria-label="AI EARN HUB">
+                                <img src="../../assets/images/logo.svg" alt="AI EARN HUB" class="footer-site-logo" width="180" height="36" style="filter: brightness(0) invert(1); opacity: 0.9;">
+                            </a>
+                        </div>
+                        <p class="footer-description">
+                            AI Tools, Earning &amp; Digital Solutions                        </p>
+                        <div class="footer-social">
+                                                                                                                                                                </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="../../ai-tools/">AI Tools</a></li>
+                            <li><a href="../../guides/">Guides</a></li>
+                            <li><a href="../../blog/">Blog</a></li>
+                            <li><a href="../../about/">About</a></li>
+                            <li><a href="../../contact/">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Resources</h4>
+                        <ul class="footer-links">
+                            <li><a href="../../privacy-policy/">Privacy Policy</a></li>
+                            <li><a href="../../terms-of-service/">Terms of Service</a></li>
+                            <li><a href="../../affiliate-disclosure/">Affiliate Disclosure</a></li>
+                            <li><a href="../../cookie-policy/">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Stay Updated</h4>
+                        <p class="footer-newsletter-text">
+                            Get the latest AI earning tips and tool reviews delivered to your inbox.                        </p>
+                        <form class="footer-newsletter" action="#" method="post">
+                            <input type="email" name="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-inner">
+                    <p class="copyright">
+                        &copy; 2026                        <a href="../../">AI EARN HUB</a>.
+                        All rights reserved.                    </p>
+                                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/scroll.js"></script>
+</body>
+</html>
