@@ -44,8 +44,8 @@ html, body {
         width: 300px;
         height: 100vh;
         height: 100dvh;
-        background: #fff;
-        box-shadow: -4px 0 24px rgba(0, 0, 0, 0.12);
+        background: #0F172A;
+        box-shadow: -4px 0 24px rgba(0, 0, 0, 0.5);
         padding: 80px 24px 40px;
         transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 999;
@@ -55,6 +55,7 @@ html, body {
 
     .main-navigation.is-active {
         right: 0;
+        background: #0F172A;
     }
 
     .main-navigation ul {
@@ -66,6 +67,13 @@ html, body {
         padding: 14px 16px;
         font-size: 1rem;
         border-radius: 10px;
+        color: #CBD5E1;
+    }
+
+    .main-navigation ul li a:hover,
+    .main-navigation ul li.current-menu-item > a {
+        color: #818CF8;
+        background: rgba(129, 140, 248, 0.12);
     }
 
     .main-navigation ul li ul {
@@ -86,6 +94,12 @@ html, body {
     .main-navigation ul li ul li a {
         padding: 10px 16px;
         font-size: 0.9375rem;
+        color: #CBD5E1;
+    }
+
+    .main-navigation ul li ul li a:hover {
+        color: #818CF8;
+        background: rgba(129, 140, 248, 0.12);
     }
 
     .menu-toggle {
