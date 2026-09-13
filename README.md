@@ -1,6 +1,6 @@
-# AI EARN HUB
+﻿# AI EARN HUB
 
-Static website for AI EARN HUB — your guide to earning with AI.
+Static website for AI EARN HUB â€” your guide to earning with AI.
 
 ## About
 
@@ -12,13 +12,13 @@ Visit the live site at: https://aaaa1bbbb.wuaze.com/
 
 ## Pages
 
-- **Homepage** — Landing page with featured tools, guides, and articles
-- **About** — Mission, approach, and team information
-- **Contact** — Contact form and inquiry information
-- **Privacy Policy** — Data collection and privacy practices
-- **AI Tools** — Reviews of ChatGPT, Jasper, Midjourney, Copy.ai, Murf AI, GitHub Copilot
-- **Guides** — Step-by-step tutorials for using AI tools
-- **Blog** — Articles on AI freelancing, earning online, and tool comparisons
+- **Homepage** â€” Landing page with featured tools, guides, and articles
+- **About** â€” Mission, approach, and team information
+- **Contact** â€” Contact form and inquiry information
+- **Privacy Policy** â€” Data collection and privacy practices
+- **AI Tools** â€” Reviews of ChatGPT, Jasper, Midjourney, Copy.ai, Murf AI, GitHub Copilot
+- **Guides** â€” Step-by-step tutorials for using AI tools
+- **Blog** â€” Articles on AI freelancing, earning online, and tool comparisons
 
 ## Tech Stack
 
@@ -33,9 +33,9 @@ This site is deployed via GitHub Pages from the `main` branch.
 
 ## Content Categories
 
-- **Getting Started** — Beginner guides and introductions
-- **AI Tools** — Tool reviews and comparisons
-- **Guides** — In-depth tutorials and walkthroughs
+- **Getting Started** â€” Beginner guides and introductions
+- **AI Tools** â€” Tool reviews and comparisons
+- **Guides** â€” In-depth tutorials and walkthroughs
 
 ## License
 

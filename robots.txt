@@ -1,5 +1,5 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 Disallow: /assets/
 
-Sitemap: https://abdullaab1221-crypto.github.io/ai-earn-hub/sitemap.xml
+Sitemap: https://ai-earn-hub.online/sitemap.xml
