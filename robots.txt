@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aaaa1bbbb.wuaze.com/sitemap.xml
+Sitemap: https://ai-earn-hub.online/sitemap.xml
