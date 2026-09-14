@@ -8,7 +8,7 @@ AI EARN HUB provides practical guides, honest tool reviews, and real strategies 
 
 ## Live Site
 
-Visit the live site at: https://aaaa1bbbb.wuaze.com/
+Visit the live site at: https://ai-earn-hub.online/
 
 ## Pages
 
